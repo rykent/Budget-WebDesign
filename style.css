@@ -1,0 +1,92 @@
+body {
+	margin: 0;
+	background: url('corona.jpg') no-repeat fixed;
+	background-size: cover;
+}
+
+.navbar {
+	display: inline-block;
+	width:100%;
+	font-size: 20px;
+	background: #343633;
+	padding: 0px;
+	margin: 0px;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	height: 25px;
+	padding: 10px;
+	float: left;
+}
+
+.navbar a:hover {
+	background: white;
+	color: black;
+}
+
+.active {
+	background: #86bbd8;
+}
+
+#foodBox {
+	padding: 100px 200px;
+	background: #5cc8ff;
+	margin: 50px 200px 0px 200px;
+	border-radius: 10px;
+}
+#foodBox h2 {
+	font-size: 45px;
+}
+#foodBox p, li {
+	font-size: 25px;
+}
+#rentBox {
+	background: #93867f;
+	margin: 50px 200px 0px 200px;
+	padding: 100px 200px;
+	border-radius: 10px;
+}
+#rentBox h2 {
+	font-size: 45px;
+}
+#rentBox p {
+	font-size: 25px;
+}
+.titleContainer {
+	font-size: 60px;
+	text-align: center;
+	padding: 10px;
+	margin: 0px 20px;
+	background: #343633;
+	color: white;
+}
+#appleImage {
+	position: absolute;
+	right: 300px;
+	top: 875px;
+}
+#potatoImage {
+	position: absolute;
+	right: 300px;
+	top: 1100px;
+}
+#milkImage {
+	position: absolute;
+	right: 300px;
+	top: 700px;
+}
+#carBox {
+	background: #7d70ba;
+	margin: 50px 200px 0px 200px;
+	padding: 100px 200px;
+	border-radius: 10px;
+}
+#carBox h2 {
+	font-size: 45px;
+}
+#carBox p {
+	font-size: 25px;
+}
