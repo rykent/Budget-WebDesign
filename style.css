@@ -1,7 +1,5 @@
 body {
 	margin: 0;
-	background: url('corona.jpg') no-repeat fixed;
-	background-size: cover;
 }
 
 .navbar {
@@ -88,5 +86,23 @@ body {
 	font-size: 45px;
 }
 #carBox p {
+	font-size: 25px;
+}
+#textThing {
+	background: #7fb7be;
+	margin: 50px 200px;
+	padding: 100px;
+	border-radius: 10px;
+}
+#textThing h2 {
+	font-size: 50px;
+}
+#textThing h3 {
+	font-size: 40px;
+}
+#textThing h4 {
+	font-size: 30px;
+}
+#textThing p {
 	font-size: 25px;
 }
